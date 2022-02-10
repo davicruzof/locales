@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="222dp"
+    android:layout_height="270dp"
+    android:layout_marginEnd="15dp"
+    app:cardCornerRadius="10dp">
+
+        <View
+            android:layout_width="222dp"
+            android:layout_height="270dp"
+            android:elevation="5dp"
+            android:background="#6A000000"
+            />
+
+
+        <ImageView
+            android:id="@+id/imagem_card"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/radius_input_search"
+            android:backgroundTint="@color/black"
+            android:scaleType="centerCrop"
+            tools:srcCompat="@drawable/item" />
+
+        <TextView
+            android:id="@+id/title_card"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:ellipsize="marquee"
+            android:fontFamily="@font/raleway_medium"
+            android:gravity="bottom"
+            android:singleLine="true"
+            android:layout_marginStart="20dp"
+            android:layout_marginBottom="38dp"
+            tools:text="title"
+            android:elevation="5dp"
+            android:textColor="@color/white"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/subtitle_card"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_alignParentBottom="true"
+            android:layout_marginHorizontal="20dp"
+            android:layout_marginBottom="16dp"
+            android:gravity="bottom"
+            android:elevation="5dp"
+            android:ellipsize="marquee"
+            android:fontFamily="@font/raleway"
+            android:singleLine="true"
+            tools:text="subtitle"
+            android:textColor="@color/white"
+            android:textSize="12sp" />
+
+</androidx.cardview.widget.CardView>
+

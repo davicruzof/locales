@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">locales</string>
+    <string name="localizacao">Localização</string>
+    <string name="name">Paulo</string>
+    <string name="ver_mais">ver mais</string>
+    <string name="perto_de_voc">Perto de você</string>
+    <string name="buscar_por_cep">Buscar por cep</string>
+    <string name="_6_banheiros">6 Banheiros</string>
+    <string name="descri_o">Descrição</string>
+</resources>
